@@ -39,13 +39,5 @@ public class Superviser {
         this.finSupervis = finSupervis;
     }
 
-    public Object getEmail() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getEmail'");
-    }
-
-    public void setEmail(Object email) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setEmail'");
-    }
+    
 }

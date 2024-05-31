@@ -47,13 +47,13 @@ public class Boutique {
         this.adresseBoutique = adresseBoutique;
     }
 
-    public Object getNom() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getNom'");
-    }
+    // public Object getNom() {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'getNom'");
+    // }
 
-    public void setNom(Object nom) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setNom'");
-    }
+    // public void setNom(Object nom) {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'setNom'");
+    // }
 }

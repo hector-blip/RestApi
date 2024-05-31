@@ -31,7 +31,6 @@ public class CategorieService {
             return null;
         }
         categorie.setNom(categorieDetails.getNom());
-        // Mettez à jour les autres champs nécessaires
         return categorieRepository.save(categorie);
     }
 

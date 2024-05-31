@@ -33,7 +33,6 @@ public class ProduitService {
         produit.setNom(produitDetails.getNom());
         produit.setPrix(produitDetails.getPrix());
         produit.setCategorie(produitDetails.getCategorie());
-        // Mettez à jour les autres champs nécessaires
         return produitRepository.save(produit);
     }
 

@@ -30,9 +30,8 @@ public class BoutiqueService {
         if (boutique == null) {
             return null;
         }
-        boutique.setNom(boutiqueDetails.getNom());
+        boutique.setNomBoutique(boutiqueDetails.getNomBoutique());
         boutique.setAdresseBoutique(boutiqueDetails.getAdresseBoutique());
-        // Mettez à jour les autres champs nécessaires
         return boutiqueRepository.save(boutique);
     }
 

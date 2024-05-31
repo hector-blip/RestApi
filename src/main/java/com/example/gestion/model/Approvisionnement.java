@@ -39,13 +39,13 @@ public class Approvisionnement {
         this.dateStock = dateStock;
     }
 
-    public Object getProduit() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getProduit'");
-    }
+    // public Object getProduit() {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'getProduit'");
+    // }
 
-    public void setProduit(Object produit) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setProduit'");
-    }
+    // public void setProduit(Object produit) {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'setProduit'");
+    // }
 }

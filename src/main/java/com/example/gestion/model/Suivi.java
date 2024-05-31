@@ -39,13 +39,13 @@ public class Suivi {
         this.rapport = rapport;
     }
 
-    public Object getDescription() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getDescription'");
-    }
+    // public Object getDescription() {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'getDescription'");
+    // }
 
-    public void setDescription(Object description) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setDescription'");
-    }
+    // public void setDescription(Object description) {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'setDescription'");
+    // }
 }

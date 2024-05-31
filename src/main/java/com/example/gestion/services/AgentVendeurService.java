@@ -31,8 +31,7 @@ public class AgentVendeurService {
             return null;
         }
         agent.setNomAgent(agentDetails.getNomAgent());
-        agent.setEmail(agentDetails.getEmail());
-        // Mettez à jour les autres champs nécessaires
+        agent.setPrenomAgent(agentDetails.getPrenomAgent());
         return agentVendeurRepository.save(agent);
     }
 

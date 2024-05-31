@@ -30,9 +30,8 @@ public class SuperviseurService {
         if (superviseur == null) {
             return null;
         }
-        superviseur.setNom(superviseurDetails.getNom());
-        superviseur.setEmail(superviseurDetails.getEmail());
-        // Mettez à jour les autres champs nécessaires
+        superviseur.setNomSupervis(superviseurDetails.getNomSupervis());
+        superviseur.setPrenomSupervis(superviseurDetails.getPrenomSupervis());
         return superviseurRepository.save(superviseur);
     }
 

@@ -30,9 +30,8 @@ public class SuiviService {
         if (suivi == null) {
             return null;
         }
-        suivi.setDescription(suiviDetails.getDescription());
+        // suivi.setDescription(suiviDetails.getDescription());
         suivi.setDateSuivi(suiviDetails.getDateSuivi());
-        // Mettez à jour les autres champs nécessaires
         return suiviRepository.save(suivi);
     }
 

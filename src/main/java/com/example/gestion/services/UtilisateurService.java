@@ -3,7 +3,7 @@ package com.example.gestion.services;
 import com.example.gestion.model.Utilisateur;
 import com.example.gestion.repository.UtilisateurRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.UserDetails;
+// import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -41,8 +41,5 @@ public class UtilisateurService {
         utilisateurRepository.deleteById(id);
     }
 
-    public UserDetails loadUserByUsername(String username) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'loadUserByUsername'");
-    }
+   
 }

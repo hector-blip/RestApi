@@ -30,10 +30,9 @@ public class ApprovisionnementService {
         if (approvisionnement == null) {
             return null;
         }
-        approvisionnement.setProduit(approvisionnementDetails.getProduit());
+        // approvisionnement.setProduit(approvisionnementDetails.getProduit());
         approvisionnement.setQuantiteStock(approvisionnementDetails.getQuantiteStock());
         approvisionnement.setDateStock(approvisionnementDetails.getDateStock());
-        // Mettez à jour les autres champs nécessaires
         return approvisionnementRepository.save(approvisionnement);
     }
 

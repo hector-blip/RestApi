@@ -31,8 +31,8 @@ public class SuperviserService {
             return null;
         }
         supervision.setId(supervisionDetails.getId());
-        supervision.setEmail(supervisionDetails.getEmail());
-        // Mettez à jour les autres champs nécessaires
+        supervision.setDebutSupervis(supervisionDetails.getDebutSupervis());
+        supervision.setFinSupervis(supervisionDetails.getFinSupervis());
         return superviserRepository.save(supervision);
     }
 
